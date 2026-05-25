@@ -13,8 +13,8 @@ catalogs:
       specifier: 0.8.4
       version: 0.8.4
     markdown-it:
-      specifier: 14.1.1
-      version: 14.1.1
+      specifier: 14.2.0
+      version: 14.2.0
     markdown-it-footnote:
       specifier: 4.0.0
       version: 4.0.0
@@ -51,7 +51,7 @@ importers:
         version: 0.8.4
       markdown-it:
         specifier: catalog:11ty
-        version: 14.1.1
+        version: 14.2.0
       markdown-it-footnote:
         specifier: catalog:11ty
         version: 4.0.0
@@ -60,7 +60,7 @@ importers:
     dependencies:
       '@slidev/cli':
         specifier: catalog:slidev
-        version: 52.15.2(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.20.0)(@types/markdown-it@14.1.2)(@types/node@22.19.0)(@vue/compiler-sfc@3.5.34)(markdown-it@14.1.1)(postcss@8.5.14)
+        version: 52.15.2(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.20.0)(@types/markdown-it@14.1.2)(@types/node@22.19.0)(@vue/compiler-sfc@3.5.34)(markdown-it@14.2.0)(postcss@8.5.14)
       '@slidev/theme-default':
         specifier: catalog:slidev
         version: 0.25.0
@@ -2249,6 +2249,9 @@ packages:
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
+  linkify-it@5.0.1:
+    resolution: {integrity: sha512-wVoTjP4Q6R0NW5hiZkVJaFZPWgtXfoGF+6LucL3/FtiNjmcHhYjEr5f1Kqjirc1nBW07J/ZuRFumqr2oqccEWg==}
+
   liquidjs@10.25.0:
     resolution: {integrity: sha512-XpO7AiGULTG4xcTlwkcTI5JreFG7b6esLCLp+aUSh7YuQErJZEoUXre9u9rbdb0057pfWG4l0VursvLd5Q/eAw==}
     engines: {node: '>=16'}
@@ -2312,6 +2315,10 @@ packages:
 
   markdown-it@14.1.1:
     resolution: {integrity: sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==}
+    hasBin: true
+
+  markdown-it@14.2.0:
+    resolution: {integrity: sha512-1TGiQiJVRQ3NPmZH6sx5Cfnmg6GQm9jvC1ch4TK511NjSJvjzKLzn5pPfZRNZkRPZP0HqCioSndqH8v2nRaWVQ==}
     hasBin: true
 
   markdown-table@3.0.4:
@@ -3685,11 +3692,11 @@ snapshots:
 
   '@chevrotain/utils@11.1.2': {}
 
-  '@comark/markdown-it@0.3.4(@types/markdown-it@14.1.2)(markdown-it@14.1.1)':
+  '@comark/markdown-it@0.3.4(@types/markdown-it@14.1.2)(markdown-it@14.2.0)':
     dependencies:
       '@types/markdown-it': 14.1.2
       js-yaml: 4.1.1
-      markdown-it: 14.1.1
+      markdown-it: 14.2.0
 
   '@drauu/core@1.0.0': {}
 
@@ -4065,11 +4072,11 @@ snapshots:
     dependencies:
       escape-string-regexp: 5.0.0
 
-  '@slidev/cli@52.15.2(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.20.0)(@types/markdown-it@14.1.2)(@types/node@22.19.0)(@vue/compiler-sfc@3.5.34)(markdown-it@14.1.1)(postcss@8.5.14)':
+  '@slidev/cli@52.15.2(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.20.0)(@types/markdown-it@14.1.2)(@types/node@22.19.0)(@vue/compiler-sfc@3.5.34)(markdown-it@14.2.0)(postcss@8.5.14)':
     dependencies:
       '@antfu/ni': 30.1.0
       '@antfu/utils': 9.3.0
-      '@comark/markdown-it': 0.3.4(@types/markdown-it@14.1.2)(markdown-it@14.1.1)
+      '@comark/markdown-it': 0.3.4(@types/markdown-it@14.1.2)(markdown-it@14.2.0)
       '@iconify-json/carbon': 1.2.20
       '@iconify-json/ph': 1.2.2
       '@iconify-json/svg-spinners': 1.2.4
@@ -4102,7 +4109,7 @@ snapshots:
       magic-string-stack: 1.1.0
       markdown-exit: 1.0.0-beta.9
       markdown-it-footnote: 4.0.0
-      markdown-it-github-alerts: 1.0.1(markdown-it@14.1.1)
+      markdown-it-github-alerts: 1.0.1(markdown-it@14.2.0)
       mlly: 1.8.2
       monaco-editor: 0.55.1
       obug: 2.1.1
@@ -5978,6 +5985,10 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
+  linkify-it@5.0.1:
+    dependencies:
+      uc.micro: 2.1.0
+
   liquidjs@10.25.0:
     dependencies:
       commander: 10.0.1
@@ -6045,15 +6056,24 @@ snapshots:
 
   markdown-it-footnote@4.0.0: {}
 
-  markdown-it-github-alerts@1.0.1(markdown-it@14.1.1):
+  markdown-it-github-alerts@1.0.1(markdown-it@14.2.0):
     dependencies:
-      markdown-it: 14.1.1
+      markdown-it: 14.2.0
 
   markdown-it@14.1.1:
     dependencies:
       argparse: 2.0.1
       entities: 4.5.0
       linkify-it: 5.0.0
+      mdurl: 2.0.0
+      punycode.js: 2.3.1
+      uc.micro: 2.1.0
+
+  markdown-it@14.2.0:
+    dependencies:
+      argparse: 2.0.1
+      entities: 4.5.0
+      linkify-it: 5.0.1
       mdurl: 2.0.0
       punycode.js: 2.3.1
       uc.micro: 2.1.0
