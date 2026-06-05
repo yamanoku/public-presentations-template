@@ -16,5 +16,5 @@
   "devDependencies": {
     "gh-pages": "catalog:root"
   },
-  "packageManager": "pnpm@11.5.1"
+  "packageManager": "pnpm@11.5.2"
 }
