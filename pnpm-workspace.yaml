@@ -14,7 +14,7 @@ catalogs:
   slidev:
     "@slidev/cli": 52.16.0
     "@slidev/theme-default": 0.25.0
-    vue: 3.5.35
+    vue: 3.5.38
   root:
     gh-pages: 6.3.0
 
