@@ -12,7 +12,7 @@ catalogs:
     markdown-it: 14.3.0
     markdown-it-footnote: 4.0.0
   slidev:
-    "@slidev/cli": 52.16.0
+    "@slidev/cli": 52.17.0
     "@slidev/theme-default": 0.25.0
     vue: 3.5.39
   root:
