@@ -9,7 +9,7 @@ catalogs:
   11ty:
     "@11ty/eleventy": 3.1.6
     budoux: 0.9.1
-    markdown-it: 14.3.1
+    markdown-it: 15.0.1
     markdown-it-footnote: 4.0.0
   slidev:
     "@slidev/cli": 52.19.1
