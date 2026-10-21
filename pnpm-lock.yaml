@@ -168,8 +168,8 @@ catalogs:
       specifier: 3.1.7
       version: 3.1.7
     budoux:
-      specifier: 0.9.3
-      version: 0.9.3
+      specifier: 0.10.0
+      version: 0.10.0
     markdown-it:
       specifier: 15.0.3
       version: 15.0.3
@@ -206,7 +206,7 @@ importers:
         version: 3.1.7
       budoux:
         specifier: catalog:11ty
-        version: 0.9.3
+        version: 0.10.0
       markdown-it:
         specifier: catalog:11ty
         version: 15.0.3
@@ -2131,8 +2131,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  budoux@0.9.3:
-    resolution: {integrity: sha512-Kj3eztSzqVzkmh51Hf8Z+vFw5lkEjGJlxtv7J6nMCjVHbInTom2t8XhYNcz479753NR94Ibv3t81roKgkyfTcA==}
+  budoux@0.10.0:
+    resolution: {integrity: sha512-jh9qIGuVLdeuc7z0jRyeSe7zEa7XthNu3QPTnzLpeMXbz4v7Lwx0j0rMK90jHSM/a8kVrTjXoLRHBhyVTfxk6w==}
     hasBin: true
 
   buffer-from@1.1.2:
@@ -7757,7 +7757,7 @@ snapshots:
       node-releases: 2.0.51
       update-browserslist-db: 1.2.3(browserslist@4.28.5)
 
-  budoux@0.9.3:
+  budoux@0.10.0:
     dependencies:
       commander: 15.0.0
       linkedom: 0.18.12
