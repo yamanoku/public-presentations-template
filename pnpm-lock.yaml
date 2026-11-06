@@ -168,8 +168,8 @@ catalogs:
       specifier: 3.1.8
       version: 3.1.8
     budoux:
-      specifier: 0.10.2
-      version: 0.10.2
+      specifier: 0.10.3
+      version: 0.10.3
     markdown-it:
       specifier: 15.0.3
       version: 15.0.3
@@ -206,7 +206,7 @@ importers:
         version: 3.1.8(chokidar@3.6.0)
       budoux:
         specifier: catalog:11ty
-        version: 0.10.2
+        version: 0.10.3
       markdown-it:
         specifier: catalog:11ty
         version: 15.0.3
@@ -2104,8 +2104,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  budoux@0.10.2:
-    resolution: {integrity: sha512-b9xs9NrUGC7rB4io0yC7OtRjU7oj/2OEAIAhLZm2KETupgDfPU2bOO6E3Mp0OheJkZ99HrZSxuFfmn8AIN3Mow==}
+  budoux@0.10.3:
+    resolution: {integrity: sha512-lodsVCx7rN+uHu0kvsdS/4kpXCVSHrpAiRjiBVUUn77fpqiR4ocsxuK6G/ShQ+eh5aBDflZ5yz9FmKJgqSnOQg==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -3536,10 +3536,6 @@ packages:
 
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
-
-  lru-cache@11.5.2:
-    resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
-    engines: {node: 20 || >=22}
 
   lru-cache@11.5.3:
     resolution: {integrity: sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==}
@@ -7551,7 +7547,7 @@ snapshots:
       node-releases: 2.0.51
       update-browserslist-db: 1.2.3(browserslist@4.28.5)
 
-  budoux@0.10.2:
+  budoux@0.10.3:
     dependencies:
       commander: 15.0.0
       linkedom: 0.18.12
@@ -9072,9 +9068,6 @@ snapshots:
 
   longest-streak@3.1.0: {}
 
-  lru-cache@11.5.2:
-    optional: true
-
   lru-cache@11.5.3: {}
 
   lru-cache@5.1.1:
@@ -9654,7 +9647,7 @@ snapshots:
 
   path-scurry@2.0.2:
     dependencies:
-      lru-cache: 11.5.2
+      lru-cache: 11.5.3
       minipass: 7.1.2
     optional: true
 
